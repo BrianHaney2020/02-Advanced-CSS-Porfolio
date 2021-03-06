@@ -1,1 +1,112 @@
-<!-- this is a new index.html file -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!-- I changed the text in the title to be more descriptive.  This looks to me like the "about"
+    section of a company's website.  
+
+    bhaney 2/19/2021-->
+    <meta charset="UTF-8" />
+    <title>Brian Haney's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+
+<body>
+    
+    <!-- changed div class="header" to <header> tag 
+        bhaney 2/21/21-->
+    <header>
+        <section id="MountainBackground"></section>
+        <h1>Brian Haney</h1>
+        <!-- change div tag to nav tag
+        bhaney 2/21/21-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--change the div tag to a section tag and gave it an id of hero.
+    I figured id was more appropriate than class because there was only
+    one instance on the page. 
+    bhaney 2/21/21-->
+    
+    <!-- I added a <main> block just to organize the file better.  
+        this is what I would call the main material of the webpage
+    bhaney 2/22/21-->
+    <main>
+        <section id="about-me">
+            <h1>About Me</h1>
+            <img src="./assets/images/brian-pic.jpg" alt="myPicture" class="float-left" />
+            <p>
+                I was born in Fairfax County.  I went to college at the University of Virginia.
+                    For 20 years, I was an actuary working in commercial & casualty insurance.
+                    
+                    I enjoy hiking and skiing, and playing piano.
+            </p>
+        </section>
+        <section id="portfolio">
+            <h1>My Portfolio</h1>
+            <br> <br>
+            <div class="box" id="box1">
+                <p>From the first homework </p>
+                <a href="https://brianhaney2020.github.io/01-code-refactor/">
+                    <img src="./assets/images/homework01.jpg"  alt="Search Engine Optimization" title="1st Homework: Code Refactor" class="float-center" />
+                </a>
+            </div>
+            <div class="box" id="box2">
+                <p>From the prework</p>
+                <a href="https://brianhaney2020.github.io/prework-about-me/">
+                    <img src="./assets/images/Pre-Work.bmp"  alt="Search Engine Optimization" title="Prework Web Page" class="float-center" />
+                </a>
+            </div>
+            <div class="box" id="box3">
+                <p>coming soon... </p>
+                <a href="https://brianhaney2020.github.io/prework-about-me/">
+                    <img src="./assets/images/tempimage3.jpg"  alt="Search Engine Optimization" title="TBD 3rd Project" class="float-center" />
+                </a>
+            </div>
+            <div class="box" id="box4">
+                <p>coming soon... </p>
+                <a href="https://brianhaney2020.github.io/prework-about-me/">
+                    <img src="./assets/images/tempimage4.jpg"  alt="Search Engine Optimization" title="TBD 4th Project" class="float-center" />
+                </a>
+            </div>
+            <div class="box" id="box5">
+                <p>coming soon... </p>
+                <a href="https://brianhaney2020.github.io/prework-about-me/">
+                    <img src="./assets/images/tempimage5.jpg"  alt="Search Engine Optimization" title="TBD 5th Project" class="float-center" />
+                </a>
+            </div>
+            <div class="box" id="box6">
+                <p>coming soon... </p>
+                <a href="https://brianhaney2020.github.io/prework-about-me/">
+                    <img src="./assets/images/tempimage6.jpg"  alt="Search Engine Optimization" title="TBD 6th Project" class="float-center" />
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer id="contact-me">
+        <h2>how to contact me</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/brian-haney-03405624">LinkedIn</a>
+            </li>
+            <li>
+                Email: BHaney70@live.com
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
