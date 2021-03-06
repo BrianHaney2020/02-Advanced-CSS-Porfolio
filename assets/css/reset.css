@@ -1,3 +1,6 @@
+/* I'm putting in a reset css file just as best practices.
+  */
+
 * {
     margin: 0;
     padding: 0;

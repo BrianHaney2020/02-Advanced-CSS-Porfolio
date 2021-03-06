@@ -16,6 +16,12 @@ footer {
     color: #000000; /* had to add this when I made white the global font color */
     text-align: center;
     background-color: rgba(92,80,61,.5)
+    /* for the color scheme, I found a website that will give you the exact color references
+    from a particular part of an image, and then picked the colors most prominent in the 
+    background image from the top, which were a blue and a tan/dark tan. 
+
+    note, it's interesting to see why the blue ridge are named.  The blue I took was from 
+    the mountains in the distance of the image.  Which turn out really to be blue. */
 }
 
 footer ul {
