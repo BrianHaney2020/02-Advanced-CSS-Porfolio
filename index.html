@@ -4,85 +4,139 @@
 <head>
     <meta charset="UTF-8" />
     <title>Brian Haney's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
 
 <body>
-    <header>
-        <section id="MountainBackground"></section>
-        <h1>Brian Haney</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- <a class="navbar-brand">
+                Brian Haney
+            </a> -->
+            <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label= "Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <!-- <div class="collapse navbar-collapse"> -->
+                <div class="nav navbar-nav navbar-left">
+                    <h1>Brian Haney</h1>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about-me">About</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            <!-- </div> -->
+        </div>  
+    </nav>
+  <!--   <header class="intro-header">
+        <div class="container" id="banner-name">
+            <h1>Brian Haney</h1>
+            <h3>through week 9</h3>
+        </div>
+    </header> -->
  
     <main>
-        <section id="about-me">
+        <div class="container" id="about-me">
             <h1>About Me</h1>
-            <img src="./assets/images/brian-pic.jpg" alt="myPicture" class="float-left" />
+            <img src="./assets/images/brian-pic.jpg" id="selfie" />
             <p>
                 I was born in Fairfax County.  I went to college at the University of Virginia.
-                    For 20 years, I was an actuary working in commercial & casualty insurance.
-                    I enjoy hiking and skiing, and playing piano.
+                For 20 years, I was an actuary working in commercial & casualty insurance.
+                I enjoy hiking and skiing, and playing piano.
             </p>
-        </section>
+        </div>
         <!-- for the pictures, I chose to use the actual files rather than links-->
-        <section id="portfolio">
-            <h1>My Portfolio</h1>
-            <div class="pure-g">
+        <section class="content-section-b" id="portfolio">
+            <div class="container-fluid">
+                <div class = "row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://kcarroll21.github.io/projectoneNFTeam/">
+                                <img src="./assets/images/project1.png"  alt="Project 1" title="Project 1" style="width:100%"/>
+                                <div class="caption">
+                                    <h4>Project 1: GigHub Music</h4>
+                                    <a href="https://github.com/kcarroll21/projectoneNFTeam">Github Repository</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://brianhaney2020.github.io/05-day-planner/">
+                                <img src="./assets/images/dayPlanner.png"  alt="Project 1" title="Project 1" style="width: 100%"/>
+                                <div class="caption">
+                                    <h4>Day Planner</h4>
+                                    <a href="https://github.com/BrianHaney2020/05-day-planner">Github Repository</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://brianhaney2020.github.io/04-coding-quiz/">
+                                <img class="caption" src="./assets/images/codingquiz.png"  style="width:100%"/>
+                                <h4>Coding Quiz</h4>
+                                <a href="https://github.com/BrianHaney2020/04-coding-quiz">Github Repository</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 
+                <div class="pure-g">
                 <div class = "pure-u-1-3 content">
-                    <h2>Project 1: GigHub Music</h2>
-                    <a href="https://github.com/kcarroll21/projectoneNFTeam">Github Repository</a>
-                    <a href="https://kcarroll21.github.io/projectoneNFTeam/">
-                        <img src="./assets/images/project1.png"  alt="Search Engine Optimization" title="1st Homework: Code Refactor" class="float-center" />
-                    </a>
                 </div>
                 <div class="pure-u-1-3">
                     <h2>Day Planner</h2>
-                    <a href="https://github.com/BrianHaney2020/05-day-planner">Github Repository</a>
 
-                    <a href="https://brianhaney2020.github.io/05-day-planner/">
                         <img src="./assets/images/dayPlanner.png"  alt="Search Engine Optimization" title="Prework Web Page" class="float-center" />
                     </a>
                 </div>
                 <div class="pure-u-1-3">
                     <h2>Coding Quiz</h2>
-                    <a href="https://github.com/BrianHaney2020/04-coding-quiz">Github Repository</a>
 
-                    <a href="https://brianhaney2020.github.io/04-coding-quiz/">
                         <img src="./assets/images/codingquiz.png"  alt="Search Engine Optimization" title="TBD 3rd Project" class="float-center" />
                     </a>
                 </div>
-            </div>
-            
-            
-        </section>
+            </div>    
+        </section> -->
     </main>
-    <footer id="contact-me">
-        <h2>how to contact me</h2>
-        <!-- I don't have other social media beyond LinkedIn, so this and my email 
-        are the only ways to contact me.-->
-        <ul>
-            <li><a href="https://www.linkedin.com/in/brian-haney-03405624">LinkedIn</a></li>
-            <li><a href="https://github.com/BrianHaney2020">GitHub</a></li>
-            <li><a href="./assets/docs/haney-resume.docx">Resume</a></li>
-            </a>
-            <li>Email: BHaney70@live.com</li>
-            <li>Phone: (804) 519-9700</li>
-        </ul>
-    </footer>
+    <aside class="banner" id="contact-me">
+        <div class="container">
+            <h2>how to contact me</h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">
+                        <a href="https://www.linkedin.com/in/brian-haney-03405624">LinkedIn</a>
+                </button>
+                <button type="button" class="btn btn-default">
+                    <a href="https://github.com/BrianHaney2020">GitHub</a>
+                </button>
+                <button type="button" class="btn btn-default">
+                    <a href="./assets/docs/haney-resume.pdf">Resume</a>
+                </button>
+                <button type="button" class="btn btn-default">
+                    Email: BHaney70@live.com
+                </button>
+                <button type="button" class="btn btn-default">
+                    Phone: (804) 519-9700
+                </button>
+            </div>    
+        </div>
+    </aside>
 </body>
 
 </html>
