@@ -7,11 +7,12 @@ https://github.com/BrianHaney2020/02-Advanced-CSS-Porfolio.git
 This is the link to the deployed webpage.
 https://brianhaney2020.github.io/02-Advanced-CSS-Porfolio/
 
-This is a screen shot of the deployed webpage.
-![image](https://user-images.githubusercontent.com/76619826/110221469-72bd3d00-7e9a-11eb-8fce-0512bf4b921b.png)
+This is a screen shot of the updated deployed webpage.
+![image](https://user-images.githubusercontent.com/76619826/115128502-335f3180-9fac-11eb-8933-97af73a08517.png)
 
 Brian Haney
-3/6/21
+Originally submitted on 3/6/21
+Revision subnmitted on 4/17/21
 
 
 
